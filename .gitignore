@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build directory
+dist/
+
+# Logs
+*.log
+
+# IDE directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

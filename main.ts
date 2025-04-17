@@ -1,0 +1,12 @@
+import { merge } from "./merge";
+
+function main() {
+  const collection1: number[] = [];
+  const collection2: number[] = [2, 3];
+  const collection3: number[] = [1, 4];
+
+  const result = merge(collection1, collection2, collection3);
+  console.log(result);
+}
+
+main();
